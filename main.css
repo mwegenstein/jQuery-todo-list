@@ -1,0 +1,46 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+}
+h1 {
+  background-color: red;
+  padding: 2em;
+  color: white;
+  margin: 0;
+}
+
+span {
+  padding-left: 1em;
+}
+
+.list-container {
+  padding-top: 2em;
+}
+.list-items ul {
+  display: flex;
+  flex-direction: column;
+}
+
+li {
+  padding-bottom: 1.5em;
+  list-style-type: none;
+}
+
+li:hover {
+}
+
+input[type=checkbox] + label {
+
+  
+} 
+input[type=checkbox]:checked + label {
+  color: blue;
+  text-decoration: line-through;
+  font-style: italic;
+}
+
+label:hover {
+  cursor: pointer;
+}
+input:hover {
+  cursor: pointer;
