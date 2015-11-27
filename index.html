@@ -1,44 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Document</title>
-  <link rel="stylesheet" href="main.css">
-</head>
-<body>
-  <h1>To-Do List</h1>
-  <div class="list-container">
-    <section class="list-items">
-      <ul>
-        <li>
-          <input type="checkbox" id="ossm" name="ossm"> 
-          <label for="ossm">pick up car</label>
-        </li>
-        <li>
-          <input type="checkbox" id="ossm" name="ossm"> 
-          <label for="ossm">make dr. appointment</label>
-        </li>
-        <li>
-          <input type="checkbox" id="ossm" name="ossm"> 
-          <label for="ossm">buy carrots and veggies<span>x</span></label>
-        </li>
-        <li>
-          <input type="checkbox" id="ossm" name="ossm"> 
-          <label for="ossm">finish coding to do list<span>x</span></label>
-        </li>
-        <li><input type="checkbox" id="ossm" name="ossm"> 
-          <label for="ossm">call grandma for her bday<span>x</span></label></li>
-        <li><input type="checkbox" id="ossm" name="ossm"> 
-          <label for="ossm">review code newsletters<span>x</span></label></li>
-      </ul>
-    </section>
-    <section>
-      add your item here: 
-      <input type="text" name="lastname">
-      <input type="submit" value="Submit">
-    </section>
-    
-  </div>
-  
-</body>
+  <head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+    <script src="http://code.jquery.com/jquery.min.js"></script>
+    <script src="app.js"></script>
+  </head>
+  <body>
+    <h1>To-Do List</h1>
+    <div class="list-container">
+      <p>What do you need to get done today?</p>
+     <form id="form" >
+        <input type="text" name="lastname" placeholder="add your items here...you can do it!">
+        <button>+</button>
+      </form>
+      <section class="list-items">
+        <ul>
+        </ul> 
+      </section>
+    </div>
+  </body>
 </html>
